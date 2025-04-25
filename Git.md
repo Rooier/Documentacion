@@ -45,3 +45,11 @@ podemos realizar comandos y guardas en un alias...
 ```
 
 al realizar el **_git tree_** realizara la accion de listar los commits.
+
+## Gitignore
+
+Todos los archivos que queramos excluir en los commits podemos indicarlos en el archivo _.gitignore_
+
+creamos el archivo `.gitignore` y dento indicaremos los archivos que no se consideraran en los git add .
+
+> \*\*/Archivo.ignorado
