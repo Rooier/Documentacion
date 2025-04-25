@@ -10,17 +10,18 @@ git config --global user.email "email@dot.com"
 cuando al hacer `git init` se crea la rama Master, hay que cambiarse a la rama main
 `git branch -M main`
 
-|              Comando              | Descripción                                                     |
-| :-------------------------------: | :-------------------------------------------------------------- |
-|           `git status`            | Muestra el estado de trazabilidad los ficheros                  |
-|  `git add <file>` o `git add .`   | Agrega el archivo al grupo que se enviaran a git                |
-|     `git commit -m "message"`     | Realizamos el encapsulado de ficheros que se guardaran en stage |
-|             `git log`             | Muestra los registros de los commit realizados por los usuarios |
-|      `git push origin main`       | Guardamos la version en git                                     |
-|         `git clone <url>`         | Clona un repositorio                                            |
-|     `git clone <url> carpeta`     | Clona en una carpeta específica                                 |
-| `git clone --branch <rama> <url>` | Clona solo una rama                                             |
-|    `git clone --depth 1 <url>`    | Clona solo el historial reciente (útil para repos grandes)      |
+|              Comando               | Descripción                                                     |
+| :--------------------------------: | :-------------------------------------------------------------- |
+|            `git status`            | Muestra el estado de trazabilidad los ficheros                  |
+|   `git add <file>` o `git add .`   | Agrega el archivo al grupo que se enviaran a git                |
+|     `git commit -m "message"`      | Realizamos el encapsulado de ficheros que se guardaran en stage |
+|   `git log` o `git log --graph`    | Muestra los registros de los commit realizados por los usuarios |
+| `git log --graph --pretty=oneline` | Muestra los commits en una sola linea                           |
+|       `git push origin main`       | Guardamos la version en git                                     |
+|         `git clone <url>`          | Clona un repositorio                                            |
+|     `git clone <url> carpeta`      | Clona en una carpeta específica                                 |
+| `git clone --branch <rama> <url>`  | Clona solo una rama                                             |
+|    `git clone --depth 1 <url>`     | Clona solo el historial reciente (útil para repos grandes)      |
 
 > Si tenemos detalles con la rama y tenemos un
 > **HEAD detached at 07f368b
@@ -32,3 +33,15 @@ cuando al hacer `git init` se crea la rama Master, hay que cambiarse a la rama m
 > Permite cambiarnos al origen. Al realizar un **_git checkout file.ext_** regresamos al inicio del ultimo pull.
 
 > De misma forma podemos realizar el git reset **_git reset_**, y este regreara los archivos que han sido modificados, para asi poder regresarlos al inicio con el **_git checkout file.ext_**.
+
+## Alias
+
+podemos realizar comandos y guardas en un alias...
+
+```
+    git config --global alias.tree "log --graph --decorate --all --oneline"
+
+    git tree
+```
+
+al realizar el **_git tree_** realizara la accion de listar los commits.
