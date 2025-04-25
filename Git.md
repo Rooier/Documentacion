@@ -50,6 +50,22 @@ al realizar el **_git tree_** realizara la accion de listar los commits.
 
 Todos los archivos que queramos excluir en los commits podemos indicarlos en el archivo _.gitignore_
 
-creamos el archivo `.gitignore` y dento indicaremos los archivos que no se consideraran en los git add .
+creamos el archivo `.gitignore` y dentro indicaremos los archivos que no se consideraran en los git add .
+una vez agregados los nombres de los archivos, mandamos el gitignore a la rama principal (push)
 
-> \*\*/Archivo.ignorado
+## DIFF
+
+Ayuda a mostrar en consola los cambios realizados a un archivo.
+
+````bash --- a/Git.md
++++ b/Git.md
+@@ -50,6 +50,5 @@ al realizar el **_git tree_** realizara la accion de listar los commits.
+
+ Todos los archivos que queramos excluir en los commits podemos indicarlos en el archivo _.gitignore_
+
+-creamos el archivo `.gitignore` y dento indicaremos los archivos que no se consideraran en los git add .
+-
+-> \*\*/Archivo.ignorado
++creamos el archivo `.gitignore` y dentro indicaremos los archivos que no se consideraran en los git add .
++una vez agregados los nombres de los archivos, mandamos el gitignore a la rama principal (push) ```
+````
