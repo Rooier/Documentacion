@@ -21,3 +21,8 @@ cuando al hacer `git init` se crea la rama Master, hay que cambiarse a la rama m
 |     `git clone <url> carpeta`     | Clona en una carpeta específica                                 |
 | `git clone --branch <rama> <url>` | Clona solo una rama                                             |
 |    `git clone --depth 1 <url>`    | Clona solo el historial reciente (útil para repos grandes)      |
+
+> Si tenemos detalles con la rama y tenemos un
+> **HEAD detached at 07f368b
+> nothing to commit, working tree clean**
+> basta con realizar un **_git checkout main_** para regresar a la rama head
