@@ -85,5 +85,6 @@ git reflog podemos revisar los logs de los cambios en las ramas y versiones, un 
 `git tag <nombre>`
 
 con el git log, nos mostrara el la descripcion del head, y si tiene un tag para identificar al commit.
+si realizamos un nuevo commit, el tag sigue identificando al commit, por lo que si me quiero cambiar basta con el git checkout tag
 
 ## BRANCH
