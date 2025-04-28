@@ -108,3 +108,13 @@ en caso de conflicto, se debera solucionar y despues se podra realizar el merge,
 > Si estamos realilzando cambios a un documento, y necesitamos cambiarnos a otra rama, no permitira, hasta realiazar el commit, sin embargo puede que eso aun este incompleto, porlo que necesitamos solo guardar klocalmente un cambio de esa párte, para ello el comando.
 
 `git stash`
+
+podemos listar los stash guardados con
+`git stash list`
+
+y podemos regresar los que se guardo en memoria con
+`git stash pop`
+
+Si lo que teniamos duardado en memoria ya no lo ocupamos podriamos eliminarlo con
+
+`git stach drop`
