@@ -96,3 +96,15 @@ Podemos regresar a una version en la que se requiere modificar algo sin tener qu
 al revisar los logs podemos ver cuantas ramas existen y el Head dice en que rama se esta trabajando.
 
 para cambiar entre ramas `git swtich nombre_rama`
+
+## MERGE
+
+unir/combinar cambios en un solo
+
+`git merge main`
+
+en caso de conflicto, se debera solucionar y despues se podra realizar el merge, para ello solo se adjunta el cambio.
+
+> Si estamos realilzando cambios a un documento, y necesitamos cambiarnos a otra rama, no permitira, hasta realiazar el commit, sin embargo puede que eso aun este incompleto, porlo que necesitamos solo guardar klocalmente un cambio de esa párte, para ello el comando.
+
+`git stash`
