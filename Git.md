@@ -121,3 +121,7 @@ y podemos regresar los que se guardo en memoria con
 Si lo que teniamos duardado en memoria ya no lo ocupamos podriamos eliminarlo con
 
 `git stach drop`
+
+git Remote add origin <url>
+
+git push -u origin main
