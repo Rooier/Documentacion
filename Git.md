@@ -55,7 +55,7 @@ una vez agregados los nombres de los archivos, mandamos el gitignore a la rama p
 
 ## DIFF
 
-Ayuda a mostrar en consola los cambios realizados a un archivo.
+Ayuda a mostrar en consola los cambios realizados a un archivo o alguna rama
 
 ```bash
 --- a/Git.md
@@ -96,6 +96,9 @@ Podemos regresar a una version en la que se requiere modificar algo sin tener qu
 al revisar los logs podemos ver cuantas ramas existen y el Head dice en que rama se esta trabajando.
 
 para cambiar entre ramas `git swtich nombre_rama`
+
+para eliminar una rama
+`git branch -d nombre_rama`
 
 ## MERGE
 
