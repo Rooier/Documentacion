@@ -70,3 +70,20 @@ Ayuda a mostrar en consola los cambios realizados a un archivo.
 +creamos el archivo `.gitignore` y dentro indicaremos los archivos que no se consideraran en los git add .
 +una vez agregados los nombres de los archivos, mandamos el gitignore a la rama principal (push)
 ```
+
+## RESET HARD
+
+nos ayuda a resetear a una version en especifico, ya sean una o varias versiones anteriores, o posteriores
+
+`git reset --hard <id_commit>`
+
+y con el comando
+git reflog podemos revisar los logs de los cambios en las ramas y versiones, un log completo
+
+## TAG
+
+`git tag <nombre>`
+
+con el git log, nos mostrara el la descripcion del head, y si tiene un tag para identificar al commit.
+
+## BRANCH
