@@ -57,7 +57,8 @@ una vez agregados los nombres de los archivos, mandamos el gitignore a la rama p
 
 Ayuda a mostrar en consola los cambios realizados a un archivo.
 
-````bash --- a/Git.md
+```bash
+--- a/Git.md
 +++ b/Git.md
 @@ -50,6 +50,5 @@ al realizar el **_git tree_** realizara la accion de listar los commits.
 
@@ -67,5 +68,5 @@ Ayuda a mostrar en consola los cambios realizados a un archivo.
 -
 -> \*\*/Archivo.ignorado
 +creamos el archivo `.gitignore` y dentro indicaremos los archivos que no se consideraran en los git add .
-+una vez agregados los nombres de los archivos, mandamos el gitignore a la rama principal (push) ```
-````
++una vez agregados los nombres de los archivos, mandamos el gitignore a la rama principal (push)
+```
